@@ -1,0 +1,21 @@
+entity ImpuestoView {
+	cFacturaF String    
+    cReferenciaF String
+    ejercicioF Integer
+    documentoFiF String
+    zdmsIdF String
+    cProveedorF String
+    cSociedadF String
+    iva String
+    sumImpoMoneda Double
+    sumImpoImpuesto Double
+    sumImporteBase Double
+    cMonedaI String
+}
+
+// angularSuffix * with mySuffix
+dto * with mapstruct
+service * with serviceClass
+//basic filters
+paginate ImpuestoView with pagination
+filter ImpuestoView
