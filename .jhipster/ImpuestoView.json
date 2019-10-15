@@ -1,0 +1,65 @@
+{
+    "name": "ImpuestoView",
+    "fields": [
+        {
+            "fieldName": "cFacturaF",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cReferenciaF",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ejercicioF",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "documentoFiF",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "zdmsIdF",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cProveedorF",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cSociedadF",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "iva",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sumImpoMoneda",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "sumImpoImpuesto",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "sumImporteBase",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "cMonedaI",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20191015162138",
+    "entityTableName": "impuesto_view",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": true,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "jhipsterSampleApplication",
+    "applications": "*",
+    "microserviceName": "jhipsterSampleApplication"
+}
